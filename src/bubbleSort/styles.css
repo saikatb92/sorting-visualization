@@ -1,0 +1,27 @@
+.bar-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    align-items: baseline;
+    background-color: black;
+    padding: 10vh
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(201, 201, 201);
+    height: fit-content;
+}
+
+.controller {
+    width: 20vw;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.control-panel {
+    display: flex;
+    flex-direction: row;
+}
