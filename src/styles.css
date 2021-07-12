@@ -1,0 +1,47 @@
+.bar-container {
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+    align-items: baseline;
+    padding: 10vh
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(129, 68, 133);
+    height: fit-content;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.controller {
+    width: 20vw;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.control-panel {
+    display: flex;
+    flex-direction: row;
+    padding: 1% 35%;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(35, 81, 102);
+}
+.start-button {
+    background-color: rgb(133, 68, 95) !important;
+    color: white !important;
+    width: fit-content;
+    margin-left: 15% !important;
+    margin-bottom: 5% !important;
+    margin-top: 5% !important;
+}
+.start-button:hover {
+    background-color: rgb(92, 67, 116) !important;
+}
+
+.MuiSlider-root {
+    color: rgb(12, 163, 223) !important;
+}

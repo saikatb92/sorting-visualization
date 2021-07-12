@@ -5,9 +5,9 @@ export default function Bar(props) {
 
     let barStyle = {
         height: `${height}px`,
-        width: "20px",
+        width: "0.1vw",
         backgroundColor: bgColor,
-        margin: "4px",
+        margin: "0.1vw",
     }
     return (
         <div style={barStyle} />

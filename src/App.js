@@ -1,4 +1,4 @@
-import BubbleSort from './bubbleSort/Visualizer';
+import BubbleSort from './Visualizer';
 import './App.css';
 
 function App() {
