@@ -53,7 +53,6 @@ function Visualizer() {
                 <Button className="start-button"  disabled={isRunning} onClick={() => bubbleSort([...array], setArray, setRunningFlag, speed)}>Bubble Sort</Button>
                 <Button className="start-button"  disabled={isRunning} onClick={() => quickSort([...array], setArray, setRunningFlag, speed, 0, array.length - 1)}>Quick Sort</Button>
             </div>
-            <footer />
         </div>
     )
 }

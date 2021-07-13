@@ -6,15 +6,12 @@ function Controller(props) {
     return (
         <div className="controller">
             <Typography id="discrete-slider-small-steps" gutterBottom>
-              Speed
+              Slow down
             </Typography>
             <Slider
-        defaultValue={30}
+        defaultValue={10}
         getAriaValueText={props.setSpeed}
-        aria-labelledby="discrete-slider"
-        valueLabelDisplay="auto"
         step={10}
-        marks
         min={10}
         max={3000}
       />

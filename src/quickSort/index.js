@@ -1,7 +1,7 @@
 import { swap, timer } from '../utils/utils';
 import { BAR_COLOR,FINISHED_BAR } from '../Visualizer';
 
-const PIVOT_COLOR = 'gray';
+const PIVOT_COLOR = 'darkblue';
 const partition = async (array, setArray, speed, left, right) => {
    const pivotIndex = right;
    const pivot = array[pivotIndex].height;

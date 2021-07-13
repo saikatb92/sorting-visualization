@@ -5,7 +5,7 @@ export default function Bar(props) {
 
     let barStyle = {
         height: `${height}px`,
-        width: "0.1vw",
+        width: "2px",
         backgroundColor: bgColor,
         margin: "0.1vw",
     }

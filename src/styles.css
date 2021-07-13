@@ -3,7 +3,7 @@
     justify-content: center;
     margin: 2vw;
     align-items: baseline;
-    padding: 10vh
+    height: 120%;
 }
 
 .header {
@@ -26,20 +26,21 @@
     display: flex;
     flex-direction: row;
     padding: 1% 35%;
-    color: white;
-    border-radius: 10px;
-    background-color: rgb(35, 81, 102);
+    color: rgb(87, 72, 72);
 }
 .start-button {
     background-color: rgb(133, 68, 95) !important;
     color: white !important;
     width: fit-content;
-    margin-left: 15% !important;
+    margin-left: 5% !important;
     margin-bottom: 5% !important;
-    margin-top: 5% !important;
+    margin-top: 2% !important;
 }
 .start-button:hover {
     background-color: rgb(92, 67, 116) !important;
+}
+.Mui-disabled {
+    background-color: rgb(163, 153, 172) !important;
 }
 
 .MuiSlider-root {

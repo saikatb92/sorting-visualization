@@ -15,11 +15,10 @@ const bubbleSort = async(array, setArray, setRunningFlag, speed) => {
             tempArray[j].backgroundColor = BAR_COLOR;
             await timer(speed);
             };
-            tempArray[array.length - i-1].backgroundColor = FINISHED_BAR;
+            // tempArray[array.length - i-1].backgroundColor = FINISHED_BAR;
             await timer(speed);
         }
 
-        clearTimeout();
         setRunningFlag(false);
     }
 
